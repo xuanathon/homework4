@@ -50,14 +50,12 @@ nav a:hover {
     margin: -40px;
 }
 
-/*Your code here*/
 /*Add the selector and rule to move the skip
 link to the exact top of the page.*/
 .skip a:focus {
     margin: 0;
 }
 
-/*Your code here*/
 /*Add the selector and code to put a 2px black
 border around all elements in focus.*/
 *:focus {
@@ -65,7 +63,6 @@ border around all elements in focus.*/
 }
 
 .container {
-    /*Your code here  */
     /* See documentation for mobile view */
     display: grid;
     grid-template-columns: 100px 400px 100px;
@@ -91,7 +88,6 @@ header {
     color: white;
     height: 400px;                /* Parallax effect */
 
-    /* Your code here */
     /* Set background-image to header.jpg in the images folder */
     /* Span one row */
     background-image: url("../images/header.jpg");
@@ -108,7 +104,6 @@ header p {
 }
 
 .about, .method, .clients, .contact {
-    /*Your code here */
     /* See documentation for mobile view */
     grid-column: 2 / span 1;
 }
@@ -130,7 +125,6 @@ header p {
 }
 
 .about-image, .method-image, .clients-image, .contact-image {
-    /*Your code here */
     /* See documentation for mobile view */
     grid-column: 1 / -1;
     max-height: 700px;
@@ -138,25 +132,21 @@ header p {
 }
 
 .about, .about-image {
-    /*Your code here */
     /* See documentation for mobile view */
     grid-row: 3;
 }
 
 .method, .method-image {
-    /*Your code here */
     /* See documentation for mobile view */
     grid-row: 4;
 }
 
 .clients, .clients-image {
-    /*Your code here */
     /* See documentation for mobile view */
     grid-row: 5;
 }
 
 .contact, .contact-image {
-    /*Your code here */
     /* See documentation for mobile view */
     grid-row: 6;
 }
@@ -165,7 +155,6 @@ header p {
     background-color: rgba(255, 255, 255, .8);
     border: 10px solid black;
     padding: 30px;
-    /*Your code here:*/
     /*Align the content in the center */
     justify-self: center;
     align-self: center;
@@ -196,13 +185,11 @@ footer {
     }
 
     .about, .clients, .method-image, .contact-image {
-        /*Your code here */
         /* See documentation for desktop view */
         grid-column: 3 / span 2;
     }
 
     .about-image, .clients-image, .method, .contact {
-        /*Your code here */
         /* See documentation for desktop view */
         grid-column: 2 / span 2;
     }
