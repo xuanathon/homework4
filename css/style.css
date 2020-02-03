@@ -47,7 +47,6 @@ nav a:hover {
 
     /*Your code here - position relative to the parent */
     position: absolute;
-    /*Your code here - place 40px higher */
     margin: -40px;
 }
 
@@ -175,8 +174,8 @@ header p {
 footer {
     background-color: black;
     color: white;
-    grid-column: 1 / -1;  /*Can you explain what this does?*/
-    grid-row: 7 / auto;   /*Can you rewrite it?*/
+    grid-column: 1 / -1;
+    grid-row: 7 / auto;
     padding-top: 30px;
     text-align: center;
 }
