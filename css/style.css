@@ -96,6 +96,7 @@ header {
     /* Set background-image to header.jpg in the images folder */
     /* Span one row */
     background-image: url("../images/header.jpg");
+    background-color: #545454;
     grid-column: 1/-1;
     grid-row: 2;
 }
